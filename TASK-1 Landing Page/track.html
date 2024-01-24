@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track SD Mango</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        header {
+            width: 1366px;
+            display: flex;
+            justify-content: center;
+            background-color: #FFFFEC;
+        }
+
+        /* navigation bar */
+        .nav-bar {
+            height: 100px;
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        img {
+            height: 95px;
+            width: auto;
+        }
+
+        /* menu */
+        .nav-bar a {
+            text-decoration: none;
+            padding: 0 5px 8px 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: 1.1rem;
+            color: #76453B;
+        }
+
+        .nav-bar a:hover {
+            border-bottom: 2px solid;
+            color: #f96c00;
+        }
+
+        /* contact */
+        footer {
+            height: 110px;
+            width: 1366px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #eebc19;
+            padding: 10px;
+            margin-top: auto;
+        }
+
+        footer ul {
+
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .terms-condition {
+            width: 30%;
+            font-size: .90rem;
+        }
+
+        .social-media {
+            width: 15%;
+        }
+
+        footer ul li a {
+            text-decoration: none;
+            color: #353238;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .copy-right {
+            color: #353238;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .90rem;
+        }
+
+        .track-search, .track-input {
+            height: 30px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        .track-search {
+            width: 7vw;
+            margin-left: 10px;
+            background-color: rgb(152, 207, 152);
+            border-radius: 6px;
+        }
+        
+        .track-search:hover {
+            cursor: pointer;
+        }
+        .track-input {
+            width: 20vw;
+            margin-top: 30px;
+            border-radius: 6px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 550; 
+            font-family: Arial, Helvetica, sans-serif; 
+            color: #76453B;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <img src="images/logo.png" alt="logo">            
+            <a href="index.html">Home</a>
+            <a href="#">Order Mango</a>
+            <a href="#">Order Cashew</a>
+            <a href="#">Track Your Order</a>
+            <a href="#">Contact Us</a>            
+        </div>
+    </header>
+
+    <main>
+        <h1>Track SD Ratnagiri Mango</h1>
+        <div class="track">
+            <input class="track-input" type="text" placeholder="Enter the tracking / Order Number">
+            <button class="track-search">Search</button>
+        </div>
+    </main>
+
+    <footer>
+        <ul class="terms-condition">
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">FAQs</a></li>
+                <li><a href="">Return Policy</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+
+            <ul class="social-media">
+                <li><a href="https://www.instagram.com/sanket_dlv"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/sanket.dalvi.5492"><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+
+            <p class="copy-right"><i class="fa-regular fa-copyright"></i> 2024 SD Ratnagiri Mango</p>
+        </footer>
+</body>
+</html>
